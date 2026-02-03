@@ -12,7 +12,12 @@ public class CircleTest01 {
         UdskrivArealer(c1);
         Circle01 c2 = new Circle01(10);
         UdskrivArealer(c2);
-
+        Circle01 c3 = new Circle01(45);
+        UdskrivArealer(c3);
+        Circle01 c4 = new Circle01(99);
+        UdskrivArealer(c4);
+        Circle01 c5 = new Circle01(2);
+        UdskrivArealer(c5);
     }
 
     public static void UdskrivArealer(Circle01 c) {
