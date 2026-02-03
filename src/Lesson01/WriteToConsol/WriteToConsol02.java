@@ -1,6 +1,7 @@
 package Lesson01.WriteToConsol;
 
-
+// forskel fra v1 til v2 lægger metoden i sin egen static void, som så kaldes i "main", i stedet for at
+// funktionaliteten ligger direkte i main
 // This is a class
 public class WriteToConsol02 {
 
