@@ -31,5 +31,6 @@ public class tShirt {
         tShirt t2 = new tShirt("rød", "M","en sol",19.99, false);
         t2.tShirtDescription();
         tShirt t3 = new tShirt("blå", "S","et træ", 12.30,true);
+        t3.tShirtDescription();
     }
 }
