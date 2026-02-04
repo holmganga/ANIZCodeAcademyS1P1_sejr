@@ -4,13 +4,13 @@ public class PersonTest {
 
     public static void main(String[] args) {
 
-        String fName = "Andreas";
-        String mName = "Elias";
-        String lName = "Mogensen";
-        int age = 47;
-        String prof = "Astronaut";
+        String fName1 = "Andreas";
+        String mName1 = "Elias";
+        String lName1 = "Mogensen";
+        int age1 = 47;
+        String prof1 = "Astronaut";
 
-        OpretNytPersonObjekt(fName, mName, lName, age, prof);
+        OpretNytPersonObjekt(fName1, mName1, lName1, age1, prof1);
 
         String fName2 = "Sejr";
         String mName2 = "Staugaard";
