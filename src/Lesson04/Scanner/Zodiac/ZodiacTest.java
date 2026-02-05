@@ -1,7 +1,5 @@
 package Lesson04.Scanner.Zodiac;
-
 import java.util.Scanner;
-// We import Scanner so we can read input from the keyboard
 
 /**
  * ZodiacTest
@@ -11,7 +9,7 @@ import java.util.Scanner;
 public class ZodiacTest {
 
     public static void main(String[] args) {
-
+        Scanner in = new Scanner(System.in);
         // Create a Scanner object
         // This allows the program to read input from the user
 
@@ -32,6 +30,7 @@ public class ZodiacTest {
 
 
         // Create an object of the ZodiacSign class
+        ZodiacSign Z = new ZodiacSign(1,1); //kan man sætte day og month some null?
         // We send 'day' and 'month' to the constructor
 
 
