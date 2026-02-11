@@ -6,6 +6,7 @@ public class CoinTestVer2 {
         CoinVer2 myCoin = new CoinVer2();
         int headsCount = 0;
         int tailsCount = 0;
+        //tæller antal gange hver resultat fås
 
         // Kaste mønten 5 gange
         for (int i = 1; i <= 5; i++) {
