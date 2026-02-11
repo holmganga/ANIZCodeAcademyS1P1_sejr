@@ -1,6 +1,6 @@
 1. CoinVer1, CoinTestVer1
 Hvad er formålet med Coin-klassen?
-Hvad gør flip()-metoden?
+Hvad gør flip()-metoden? -- returnerer enten "heads" eller "tails" baseret på et vilkårligt talt mellem 0-1
 Hvad gemmer attributten side?
 Hvad returnerer getSide()?
 Hvorfor bruger vi Random i Coin-klassen?
