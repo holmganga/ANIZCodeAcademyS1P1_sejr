@@ -4,7 +4,8 @@ package Lesson07.Array.ReferenceDataTyper;
 // Klasse til at repræsentere en svamp
 class Mushroom {
     private String name;
-    private String color;
+    public String color;
+    //private String color;
 
     // Konstruktør
     public Mushroom(String name, String color) {

@@ -9,11 +9,11 @@ public class MushroomBasket {
         basket[1] = new Mushroom("Portobello", "Brun");
         basket[2] = new Mushroom("Østershat", "Grå");
         basket[3] = new Mushroom("Rød fluesvamp", "Rød");
-
+        basket[4] = new Mushroom ("Shiitake", "Brun");
 
         // Udskriv alle svampe med toString()
         System.out.println("Svampe i kurven:");
-        for (Mushroom m : basket) {
+        for (Mushroom m : basket) { //for hver Mushroom m i basket-array kører loop . m er den mushroom man pt har fat i
             System.out.println(m); // automatisk kalder toString()
         }
 
@@ -34,5 +34,27 @@ public class MushroomBasket {
         } else {
             System.out.println("The third mushroom does not match Champignon (Brun). ");
         }
+
+        //objekt og equals() tjek
+        Mushroom Østershat = new Mushroom("Østershat", "Grå");
+        boolean mushroomFound = false;
+        System.out.println("Er der en østershat i kurven?");
+        for (Mushroom m : basket) {
+            if (m.equals(Østershat)) {
+                System.out.println("Østershat fundet!\n");
+                mushroomFound = true;
+            }
+        }
+        if (!mushroomFound){
+            System.out.println("No østerhat >:(!!!!!!!");
+        }
+
+        System.out.println("De følgende svampe er brune:");
+        for (Mushroom m : basket) {
+            if (m.getColor().equals("Brun")){
+                System.out.println(m);
+            }
+        }
+
     }
 }
